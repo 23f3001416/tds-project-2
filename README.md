@@ -1,27 +1,35 @@
-# Data Analyst Agent — Your AI-Powered Data Companion  
-> Smarter, faster, and more intuitive analysis of your datasets using **Generative AI + Python magic.**  
+# Data Analyst Agent 
+> Efficient and accurate analysis of your datasets using Generative AI and Python.
 
 
 ---
 
 ##  What Is This?
-Meet **Data Analyst Agent 2.0** — an AI-driven assistant that eliminates tedious data crunching.  
-Upload your dataset + queries, and instantly get:  
- Visual reports  
- AI-generated insights  
- Automated workflows  
+Data Analyst Agent 2.0 is an AI-powered assistant designed to streamline data processing.
 
-Perfect for:  
-- Analysts 
-- Researchers   
-- Startups & Businesses   
-- Anyone who loves turning raw data into knowledge  
+Upload your dataset and queries to quickly obtain:
+
+Visual reports
+
+AI-generated insights
+
+Automated workflows
+
+Suitable for:
+
+Analysts
+
+Researchers
+
+Startups and businesses
+
+Anyone seeking to convert raw data into actionable information
 
 ---
 
-##  Key Highlights  
+##   Highlights  
 
-| Feature                  | Why It’s Awesome  |
+| Feature                  | Use  |
 |---------------------------|----------------------|
 |  AI-Powered Insights    | Uses Google’s Generative AI to “understand” your data |
 |  Rich Visualizations    | Generates plots with **Seaborn & Matplotlib** |
@@ -36,11 +44,15 @@ Perfect for:
 ##  Getting Started  
 
 ###  Clone the Repo  - git clone https://github.com/your-username/data-analyst-agent.git
+
 cd data-analyst-agent
 
-###  Install Requirements  - pip install -r requirements.txt
+###  Install Requirements 
+
+- pip install -r requirements.txt
 
 ###  Configure API Keys  
+
 Create a `.env` file inside the root folder:  
 GEMINI_API_KEY=your_google_api_key
 LLM_TIMEOUT_SECONDS=240
@@ -48,11 +60,11 @@ LLM_TIMEOUT_SECONDS=240
 
 ###  Start the Application  - python -m uvicorn app:app --reload
 
-Now open [**http://localhost:8000/**](http://localhost:8000/) in your browser 🌐  
+Now open [**http://localhost:8000/**](http://localhost:8000/) in your browser 
 
 
 
-##  Tech Behind the Scenes  
+##  Techstack  
 
 ### Backend  
 - FastAPI  → High-performance web server  
@@ -61,13 +73,11 @@ Now open [**http://localhost:8000/**](http://localhost:8000/) in your browser �
 - Pandas + NumPy  → Data wrangling made smooth  
 - Seaborn + Matplotlib  → Clean, insightful charts  
 
-### Frontend  
-- HTML5 + CSS + JavaScript  
-- Bootstrap-inspired modern UI  
+
 
 ---
 
-## 🔧 API Blueprint  
+##  API Blueprint  
 
 | Method | Endpoint  | Purpose |
 |--------|-----------|----------|
@@ -77,31 +87,8 @@ Now open [**http://localhost:8000/**](http://localhost:8000/) in your browser �
 
 ---
 
-## 📂 File Support  
 
-| Format | Extensions |
-|--------|------------|
-| CSV    | `.csv`     |
-| Excel  | `.xlsx`, `.xls` |
-| JSON   | `.json`    |
-| Parquet| `.parquet` |
-| Text   | `.txt`     |
 
----
-
-##  Where Can You Use This?  
-
-- 📈 Business Strategy – Sales, KPIs, forecasts  
-- 🔬 Research – Data exploration, hypothesis validation  
-- 🤖 Data Science – Quick EDA, anomaly detection  
-- 📊 Reporting – Automated dashboards  
-
----
-
-##  Security First  
--  No cloud storage → All data stays local  
--  API keys kept safe via `.env`  
--  Configurable CORS policy for production use  
 
 ---
 
